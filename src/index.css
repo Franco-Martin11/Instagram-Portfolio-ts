@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-url {
+  background-image: url(./assets/svg/bgGrain.svg);
+}
+.bg-url-dark {
+  background-image: url(./assets/svg/bgGrainDark.svg);
+}
