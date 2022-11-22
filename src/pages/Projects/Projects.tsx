@@ -1,14 +1,14 @@
+import { PublishData } from '@/constant/PublishData'
 import React from 'react'
+import ProjectCard from './Components/ProjectCard'
 
 type Props = {}
 
 const Projects = (props: Props) => {
+
   return (
-    <div className='grid-template bg-white min-h-[50vh] px-2 sm:px-4'>
-      <div className="w-full h-[175px] md:h-[215px]  bg-gray-700"></div>
-      <div className="w-full h-[175px] md:h-[215px]  bg-gray-700"></div>
-      <div className="w-full h-[175px] md:h-[215px]  bg-gray-700"></div>
-      <div className="w-full h-[175px] md:h-[215px]  bg-gray-700"></div>
+    <div className='grid-template bg-[#fafafa] min-h-[50vh]'>
+      {PublishData.map(element => <ProjectCard key={element.id} id={element.id} imgAlt={element.imgAlt} imgUrl={element.imgUrl} slides={element.slides} />)}
 
     </div>
   )

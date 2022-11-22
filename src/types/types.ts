@@ -18,3 +18,12 @@ export type navigationIconData = {
   setFocus: React.Dispatch<string>;
   focus: string;
 };
+
+export type Image = {
+  id: string;
+  imgAlt: string;
+  imgUrl: string;
+  slides?: Array<{ id: string; imgAlt: string; imgUrl: string }>;
+};
+
+export type publishData = Array<Image>;

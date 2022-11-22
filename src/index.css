@@ -21,14 +21,16 @@
   gap: 1rem;
 }
 @media screen and (max-width: 720px) {
-.grid-template{
-    grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
-    gap: .75rem;
-}
+  .grid-template {
+    grid-template-columns: repeat(auto-fill, minmax(175px, 1fr)); gap: .5rem;
+  }
 }
 @media screen and (max-width: 520px) {
   .grid-template {
-    grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
-    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(125px, 1fr)); gap: .25rem;
   }
+}
+
+#root {
+  background-color: #fafafa;
 }
