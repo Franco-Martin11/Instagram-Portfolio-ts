@@ -2,7 +2,7 @@ import { Home } from "@/pages"
 import RoutesApp from "./routes/RoutesApp"
 function App() {
   return (
-    <div className="max-w-4xl m-[0_auto]">
+    <div className="max-w-4xl m-[0_auto] bg-[#fafafa]">
       <Home />
       <RoutesApp />
     </div>

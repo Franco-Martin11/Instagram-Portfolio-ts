@@ -22,7 +22,7 @@ const dataStats: Array<stats> = [{
 
 const Stats: FC = () => {
   return (
-    <div className="flex flex-row gap-2 order-3 sm:order-2 border-y px-2 border-gray-200 sm:border-none sm:px-0 sm:py-0 py-4 md:gap-8 items-center justify-between text-center flex-wrap sm:flex-nowrap">
+    <div className="flex flex-row gap-2 order-3 sm:order-2 border-y px-4 bg-[#fafafa] sm:bg-white border-gray-200 sm:border-none sm:px-0 sm:py-0 py-4 md:gap-8 items-center justify-between text-center flex-wrap sm:flex-nowrap">
       {dataStats.map(element => <StatsCopy key={element.quantity} route={element.route} quantity={element.quantity} description={element.description} />)}
     </div>
   )

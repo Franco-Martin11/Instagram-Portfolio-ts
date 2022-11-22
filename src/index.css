@@ -14,3 +14,21 @@
 .bg-url-dark {
   background-image: url(./assets/svg/bgGrainDark.svg);
 }
+
+.grid-template {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+  gap: 1rem;
+}
+@media screen and (max-width: 720px) {
+.grid-template{
+    grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+    gap: .75rem;
+}
+}
+@media screen and (max-width: 520px) {
+  .grid-template {
+    grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+    gap: 0.5rem;
+  }
+}
