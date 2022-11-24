@@ -2,6 +2,7 @@ import { RestoreIcon } from '@/components'
 import useBodyScrollLock from '@/hook/useBodyScrollLock'
 import { Image } from '@/types/types'
 import { FC } from 'react'
+import ProjectModal from './ProjectModal'
 
 const ProjectCard: FC<Image> = ({ imgUrl, imgAlt, slides }) => {
   const { isLocked, handleToggle } = useBodyScrollLock()
@@ -18,9 +19,7 @@ const ProjectCard: FC<Image> = ({ imgUrl, imgAlt, slides }) => {
         }
         <img src={imgUrl} className="w-full h-full object-cover" alt={imgAlt} loading='lazy' />
       </div>
-      {isLocked && <div onClick={handleToggle} className="w-full min-h-screen fixed top-0 left-0 z-10 grid place-items-center bg-[rgba(0,0,0,0.83)]">
-        <img src={imgUrl} alt={imgAlt} loading='lazy' className='aspect-square object-cover w-96 h-96 bg-slate-600' />
-      </div>}
+      {isLocked && <ProjectModal handleToggle={handleToggle} imgAlt={imgAlt} imgUrl={imgUrl} slides={slides} />}
     </div>
   )
 }

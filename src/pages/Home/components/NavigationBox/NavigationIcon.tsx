@@ -10,7 +10,7 @@ const NavigationIcon: FC<navigationIconData> = ({ idClass, title, Icon, focus, s
                 <>{Icon}</>
                 <h4 className='hidden sm:flex font-semibold text-xs'>{title}</h4>
             </div>
-        </Link>
+        </Link >
     )
 }
 

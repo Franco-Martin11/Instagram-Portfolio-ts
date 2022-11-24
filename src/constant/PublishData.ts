@@ -13,6 +13,24 @@ export const PublishData: publishData = [
         imgUrl:
           "https://images.unsplash.com/photo-1669072257143-5592e0652644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60",
       },
+      {
+        id: "daads",
+        imgAlt: "PortadaPrueba",
+        imgUrl:
+          "https://images.unsplash.com/photo-1668957714470-e5b8fc2db617?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      },
+      {
+        id: "daads",
+        imgAlt: "PortadaPrueba",
+        imgUrl:
+          "https://images.unsplash.com/photo-1661956601030-fdfb9c7e9e2f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60",
+      },
+      {
+        id: "daads",
+        imgAlt: "PortadaPrueba",
+        imgUrl:
+          "https://images.unsplash.com/photo-1669072257143-5592e0652644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60",
+      },
     ],
   },
   {
