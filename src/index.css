@@ -34,3 +34,8 @@
 #root {
   background-color: #fafafa;
 }
+
+.removeScroll{
+  height: 100%; 
+  overflow: hidden; 
+}
