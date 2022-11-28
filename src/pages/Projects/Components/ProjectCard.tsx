@@ -12,7 +12,6 @@ const ProjectCard: FC<Image> = ({ imgUrl, imgAlt, slides }) => {
         {slides &&
           <span onClick={(event) => {
             event.stopPropagation()
-            alert('hola es bueno')
           }} className="absolute top-3 right-3">
             <RestoreIcon />
           </span>

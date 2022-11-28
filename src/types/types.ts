@@ -1,3 +1,5 @@
+import { Dispatch } from "react";
+
 export type stats = {
   route: string;
   quantity: number;
@@ -27,3 +29,4 @@ export type Image = {
 };
 
 export type publishData = Array<Image>;
+

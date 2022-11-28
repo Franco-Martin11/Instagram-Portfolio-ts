@@ -8,7 +8,7 @@ const Projects = (props: Props) => {
 
   return (
     <div className='grid-template bg-[#fafafa] min-h-[50vh]'>
-      {PublishData.map(element => <ProjectCard key={element.id} id={element.id} imgAlt={element.imgAlt} imgUrl={element.imgUrl} slides={element.slides} />)}
+      {PublishData.map((element, index) => <ProjectCard key={element.id + index} id={element.id} imgAlt={element.imgAlt} imgUrl={element.imgUrl} slides={element.slides} />)}
     </div>
   )
 }
