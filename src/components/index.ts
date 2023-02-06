@@ -1,11 +1,15 @@
+export { default as BackIcon } from './BackIcon';
 export { default as ConfigIcon } from './ConfigIcon';
 export { default as ContactIcon } from './ContactIcon';
 export { default as GridIcon } from './GridIcon';
+export { default as LikeIcon } from './LikeIcon';
+export { default as Avatar } from './Modal/components/Avatar/Avatar';
+export * from './Modal/components';
+export * from './Modal';
 export { default as PlusIcon } from './PlusIcon';
 export { default as PublishIcon } from './PublishIcon';
 export { default as RestoreIcon } from './RestoreIcon';
 export { default as RoundedThumnail } from './RoundedThumnail';
-// export { default as Slider } from './Slider/Slider';
 export { default as Slides } from './Slider/Slides';
 export { default as StatsCopy } from './StatsCopy';
 export * from './index';

@@ -1,8 +1,8 @@
-import React from 'react'
+import { FC } from 'react'
 
 type Props = {}
 
-const GridIcon = (props: Props) => {
+const GridIcon: FC = (props: Props) => {
     return (<svg color='currentColor' fill="currentColor" height="24" role="img" viewBox="0 0 24 24" width="24">
         <rect fill="none" height="18" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" width="18" x="3" y="3">
         </rect>
