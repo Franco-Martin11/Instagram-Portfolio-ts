@@ -4,7 +4,7 @@ import { stats } from '@/types/types'
 
 const dataStats: Array<stats> = [{
   route: '/asd',
-  quantity: 12,
+  quantity: 21,
   description: 'projects'
 
 },

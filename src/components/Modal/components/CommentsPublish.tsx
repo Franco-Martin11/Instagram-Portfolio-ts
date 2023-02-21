@@ -1,4 +1,5 @@
-import LikeIcon from '@/components/LikeIcon'
+
+import { LikeIcon } from '@/components/Icons'
 import { FC, useState } from 'react'
 
 const CommentsPublish: FC = () => {
