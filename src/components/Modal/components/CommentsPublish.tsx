@@ -1,5 +1,5 @@
 
-import { LikeIcon } from '@/components/Icons'
+import { ComentsIcon, ConfigIcon, LikeIcon, RestoreIcon, ShareIcon } from '@/components/Icons'
 import { FC, useState } from 'react'
 
 const CommentsPublish: FC = () => {
@@ -14,10 +14,10 @@ const CommentsPublish: FC = () => {
           <LikeIcon checked={toggled} />
         </span>
         <span className="p-1 cursor-pointer" onClick={buttonHandler}>
-          <LikeIcon checked={toggled} />
+          <ComentsIcon/>
         </span>
         <span className="p-1 cursor-pointer" onClick={buttonHandler}>
-          <LikeIcon checked={toggled} />
+          <ShareIcon/>
         </span>
       </div>
       {/* <TagIcon /> */}
